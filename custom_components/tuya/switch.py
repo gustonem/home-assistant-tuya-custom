@@ -450,6 +450,26 @@ SWITCHES: dict[str, tuple[SwitchEntityDescription, ...]] = {
             name="Switch 2",
             icon="mdi:sprinkler-variant",
         ),
+        SwitchEntityDescription(
+            key=DPCode.SWITCH_3,
+            name="Switch 3",
+            icon="mdi:sprinkler-variant",
+        ),
+        SwitchEntityDescription(
+            key=DPCode.SWITCH_4,
+            name="Switch 4",
+            icon="mdi:sprinkler-variant",
+        ),
+        SwitchEntityDescription(
+            key=DPCode.SWITCH_5,
+            name="Switch 5",
+            icon="mdi:sprinkler-variant",
+        ),
+        SwitchEntityDescription(
+            key=DPCode.SWITCH_6,
+            name="Switch 6",
+            icon="mdi:sprinkler-variant",
+        ),
     ),
     # Siren Alarm
     # https://developer.tuya.com/en/docs/iot/categorysgbj?id=Kaiuz37tlpbnu
